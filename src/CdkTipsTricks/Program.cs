@@ -33,9 +33,8 @@ namespace CdkTipsTricks
             var envIN = makeEnv(account: "069623884547", region: "ap-south-1");
 
             #endregion
-            new S3Stack(app, "CdkTipsTricksStack", new cdk_tipsntricks_S3BucketStackProps("cdk-tips-tricks")
-            {
-                /*
+            new S3Stack(app, "CdkTipsTricksStack", new cdk_tipsntricks_S3BucketStackProps("githubactions")
+            {                /*
                 Env = new Amazon.CDK.Environment
                 {
                     Account = "123456789012",
