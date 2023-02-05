@@ -151,7 +151,6 @@ namespace CdkTipsTricks.lib
         {
             this.bucketProps = new cdk_tipsntricks_S3BucketProps();
             this.bucketProps.BucketName = bucketName;
-            this.bucketProps.ApplyRemovalPolicy(RemovalPolicy.DESTROY);
         }
     }
 }
