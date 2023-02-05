@@ -17,7 +17,7 @@ namespace CdkTipsTricks.stacks
             // Main bucket
             props.bucketProps.cfnBucket = new CfnBucket(this, id, props.bucketProps)
             {
-                //BucketName = props.bucketProps.mainBucketname,
+                BucketName = props.bucketProps.mainBucketname,
                 //BucketEncryption = props.bucketProps.mainBucketEncryption,
                 //Versioned = props.bucketProps.isMainBucketVersioned,
                 //BucketKeyEnabled = props.bucketProps.enableMainBucketKey,                
